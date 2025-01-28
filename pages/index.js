@@ -18,6 +18,7 @@ export default function Home() {
 
        <h1>Congratulations!</h1>
   <p>You've completed the essentials of automated application deployment with GitHub Actions! 🥳</p>
+  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
 
       </main>
     </>
