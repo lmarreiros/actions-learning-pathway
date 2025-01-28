@@ -10,14 +10,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18.x'
-      - run: npm install
-      - run: npm run build
-  eslint:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - uses: actions/checkout@v1
       - uses: stefanoeb/eslint-action@1.0.2
+      - run: npm install
+      - run: npm run build
   test: 
     needs: build
     runs-on: ubuntu-latest
