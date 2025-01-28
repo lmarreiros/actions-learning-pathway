@@ -11,7 +11,12 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
-      - run: npm run build 
+      - run: npm run build
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: stefanoeb/eslint-action@1.0.2
   test: 
     needs: build
     runs-on: ubuntu-latest
