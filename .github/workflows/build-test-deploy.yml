@@ -24,4 +24,5 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
+      - run: npm audit fix --force
       - run: npm test
