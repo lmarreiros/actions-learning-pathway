@@ -17,6 +17,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
 
        <h1>Congratulations!</h1>
+   Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
   <p>You've completed the essentials of automated application deployment with GitHub Actions! 🥳</p>
 
       </main>
