@@ -24,5 +24,4 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
-      - run: npm i --save-dev eslint-config-next
       - run: npm test
